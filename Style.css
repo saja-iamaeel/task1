@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+.myheder{
+    background-color: rgb(102, 97, 246);
+    color: azure;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+.mycontainer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.clom {
+    max-width: 75%;
+    margin: auto;
+
+}
+
+.subcont{
+    padding: 20px;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+        display: grid;
+        gap: 1rem
+ 
+}
+
+
+.posts{
+    text-align: right;
+    gap: 1rem;
+    display: flex;
+    grid-column: span 2 / span 2;
+    flex-direction: column;
+ 
+   
+}
+.postBorder{
+    text-align: center;
+    border-color: rgb(102, 97, 246);
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+    margin-left: 20;
+    margin-right: 50;
+}
+.post{
+
+    text-align: center;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2 / span 2;
+}
+h2{
+    
+    border-bottom: 2px solid rgb(102, 97, 246);;
+
+}
+
+
+
+
+.btn {
+    color: azure;
+    cursor: pointer;
+    margin: .75rem;
+   border-radius: .5rem;
+    background-color: rgb(64 54 113);
+    padding: .5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+.btn:hover {
+    background-color: rgb(255, 0, 225);
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1)
+
+}
+
+.myButton {
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+    padding: .5rem;
+    border: 4px solid rgb(102, 97, 246);
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myButton button {
+    margin-top: 3px; 
+    margin-bottom: 3px;
+}
